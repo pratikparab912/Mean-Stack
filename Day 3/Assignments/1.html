@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Weather</title>
+
+    <script src="Weather.js"></script>
+    <link href="Weather.css" rel=stylesheet>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Search Weather!</h1>
+    </div>
+
+    <input type="text" class="searchmefield" id="textid" placeholder="Enter City Name" style="color:royalblue;" />
+
+    <button onclick="getWeather()" class="me" style="color:royalblue; width: 20%;">Search</button>
+
+    <div id="parent">
+        <div style="display:flex;
+                 height: 100px;
+                 color: white;
+                 justify-content: center;
+                 align-items: center;
+                 margin-top: 12px;
+                 background-image:url(clearPicture.jpg);
+                 background-size:cover;
+                 background-repeat: no-repeat;
+                 text-shadow: 2px 2px 1px black;
+                 font-family: 'Times New Roman', Times, serif;>WECOME!
+                 </div>
+        </div>
+    </body>
+</html>
