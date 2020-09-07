@@ -1,0 +1,14 @@
+show databases;
+
+
+use dac_demo;
+show tables;
+
+select * from salespeople;
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+
+
+
